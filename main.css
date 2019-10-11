@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ body{
+   margin: 0;
+   padding: 0;
+   background: linear-gradient(to right, #e223ae, #00e8ff);
+   justify-content: center;
+   align-items: center;
+ }
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border: 1 px solid white;
+  outline: none;
+  border: 1px solid black;
+  background-color: #23e296f7;
+}
+
+.output {
+  grid-template-rows: minmax(120px, auto);
+  width: 230px;
+  height: 50px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: gray;
+  font-size: 1rem;
+}
+
+.output .current-operand {
+  color: black;
+  font-size: 1.5rem;
+}
