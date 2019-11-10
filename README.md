@@ -4,7 +4,9 @@ This is a basic calculator where you can do addition, subtraction, multiplicatio
 
 This activity was part of my curriculum challenges from Web Development Course at Enspiral Dev Academy.
 
-JavaScript, HTML, CSS
 
  ![calculator](mycalculator.png)
+ 
+ 
+ JavaScript, HTML, CSS
 
