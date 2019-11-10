@@ -1,8 +1,8 @@
 # Calculator
 
-This is the repository that will hold your files for the calculator challenge.
+This is a basic calculator where you can do addition, subtraction, multiplication, division.
 
-During this challenge you will:
-1. Fork this repo
-2. Make changes on your own copy
-3. Send a pull request back to dev-academy-foundations/calculator with your updates
+This activity was part of my curriculum challenges from Web Development Course at Enspiral Dev Academy.
+
+ ![calculator](mycalculator.png)
+
